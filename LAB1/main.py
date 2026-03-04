@@ -83,7 +83,7 @@ def vertical(datas, k_rows, k_cols, kkey, wm, vm):
             except Exception:
                 continue
 
-    print(table)
+    #print(table)
     res = ""
     if wm == "1":
         for col in kkey:
@@ -97,7 +97,7 @@ def vertical(datas, k_rows, k_cols, kkey, wm, vm):
         r = L % k_cols
 
         col_len = [full_rows + 1 if i < r else full_rows for i in range(k_cols)]
-        print(col_len)
+        #print(col_len)
 
         idx = 0
         for col_key in kkey:
@@ -236,3 +236,4 @@ while True:
         case _:
             print("\nnevermind...")
             continue
+
